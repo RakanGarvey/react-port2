@@ -27,9 +27,9 @@ function App() {
           </label>
         </div>
         <ul className="social">
-          <li className="li1"><a href="https://www.instagram.com/" target='_blank'>Instagram</a></li>
-          <li className="li1"><a href="https://telegram.org/" target='_blank'> Telegram</a></li>
-          <li className="li1"><a href="https://www.facebook.com/" target='_blank'>Facebook</a></li>
+          <li className="li1"><a href="https://www.instagram.com/" target='_blank' rel="noreferrer">Instagram</a></li>
+          <li className="li1"><a href="https://telegram.org/" target='_blank' rel="noreferrer"> Telegram</a></li>
+          <li className="li1"><a href="https://www.facebook.com/" target='_blank' rel="noreferrer">Facebook</a></li>
         </ul>
         
       </footer>
