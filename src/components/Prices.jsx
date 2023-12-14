@@ -8,10 +8,6 @@ const Prices = () => {
     const [showBookingStan, setShowBookingStan] = useState(false);
     const [showBookingPre, setShowBookingPre] = useState(false);
 
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [phone, setPhone] = useState('')
-
     const openBookingContainer = () => {
       setShowBooking(true);
     };
