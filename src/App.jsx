@@ -23,7 +23,7 @@ function App() {
           <p className="touch">Stay in touch</p>
           <label>
             <input type="email" placeholder='Email' className='input'/>
-            <button className='next-btn'><MdNavigateNext className='next-icon'/></button>
+            <button className='next-btn' style={{ cursor: "pointer" }}><MdNavigateNext className='next-icon'/></button>
           </label>
         </div>
         <ul className="social">

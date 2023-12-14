@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from "react-scroll";
 import pic1 from '../images/me1.jpg'
 import pic2 from '../images/me3.webp'
 import pic3 from '../images/me2.webp'
@@ -50,7 +51,9 @@ const Aboutme = () => {
                   the photo shoot.</p>
                  <p className="descreption"> Together with me, we will select a cool image and
                   location that will emphasize your advantages. </p>
-                  <button className="book-btn">BOOK A SHOOT</button>
+                  <Link className='li' to='prices' duration={1000} smooth={true}>
+                    <button className="book-btn">BOOK A SHOOT</button>
+                  </Link>
             </div>
             <div className="side2" style={style}>
             </div>
