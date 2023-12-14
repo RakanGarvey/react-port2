@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
   return (
     <div className='projects'>
-        <h3 className='h3-1'>PROJ<span>ECTS</span></h3>
+        <h3 className='h3-1'>WO<span>RK</span></h3>
         <div className="project">
             <div className="line1 line">
                 <div className="img_1"></div>
