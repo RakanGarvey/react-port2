@@ -7,6 +7,7 @@ import pic4 from '../images/me4.jpg'
 import pic5 from '../images/me5.jpg'
 import {TbArrowLeftCircle} from 'react-icons/tb'
 import {TbArrowRightCircle} from 'react-icons/tb'
+import Section from '../Section';
 
 const Aboutme = () => {
     const backimgs = ['', pic2, pic3, pic1, pic4, pic5]
@@ -37,7 +38,8 @@ const Aboutme = () => {
         setStyle({ backgroundImage: `url(${img})` })
     }
     return (
-    <div className='about-me'>
+    <Section>
+        <div className='about-me'>
         <h3 className='h3-1 h3-1-1'>ABOUT <span className='span-1'>ME</span></h3>
         <div className="about">
             <div className="side1">
@@ -64,6 +66,7 @@ const Aboutme = () => {
                 <div onClick={nextImg} className='btn'><TbArrowRightCircle className='icon'/></div>
             </div>
     </div>
+    </Section>
   )
 }
 

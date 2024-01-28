@@ -8,10 +8,12 @@ import red1 from '../images/red1.jpg'
 import red2 from '../images/red2.jpg'
 import red3 from '../images/red3.jpg'
 import red4 from '../images/red4.jpg'
+import Section from '../Section'
 
 const Home = () => {
   return (
-    <div className='home'>
+    <Section>
+        <div className='home'>
         <div className='first'>
             <div>
                 <h1>HELLO!<br />I'M ALESIA</h1>
@@ -78,6 +80,7 @@ const Home = () => {
                 </div>
         </div>
     </div>
+    </Section>
   )
 }
 

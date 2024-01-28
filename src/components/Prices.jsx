@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { IoCloseCircle } from "react-icons/io5";
+import Section from '../Section';
 
 
 const Prices = () => {
@@ -31,13 +32,12 @@ const Prices = () => {
   
     const handleFormSubmit = (event) => {
       event.preventDefault();
-      // Add your form submission logic here
-      // After successful submission, you can close the booking container
       closeBookingContainer();
     };
 
   return (
-    <div className='prices'>
+    <Section>
+      <div className='prices'>
         <h3 className='h3-1 h3-1-1'>PRI<span className='span-1'>CES</span></h3>
         <div className="plans">
             <div className="lite">
@@ -193,7 +193,8 @@ const Prices = () => {
                 )}
             </div>
         </div>
-    </div>
+      </div>
+    </Section>
   )
 }
 

@@ -1,8 +1,10 @@
 import React from 'react'
+import Section from '../Section'
 
 const Projects = () => {
   return (
-    <div className='projects'>
+    <Section>
+      <div className='projects'>
         <h3 className='h3-1'>WO<span>RK</span></h3>
         <div className="project">
             <div className="line1 line">
@@ -29,7 +31,8 @@ const Projects = () => {
                 <div className="img_16"></div>
             </div>
         </div>
-    </div>
+      </div>
+    </Section>
   )
 }
 

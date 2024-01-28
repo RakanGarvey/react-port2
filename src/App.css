@@ -31,11 +31,11 @@ ul {
   display: flex;
   justify-content: center;
   gap: 45px;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 100;
   letter-spacing: 5px;
   color: white;
-  font-family: 'futura', sans-serif;
+  /* font-family: 'futura', sans-serif; */
 }
 .li {
   cursor: pointer;
@@ -44,6 +44,17 @@ ul {
 li:hover {
   color: rgb(134, 134, 134);
 }
+
+.section1 {
+  width: 100%;
+}
+
+.section1 .transition {
+  display: block;
+  /* transform: translateX(-100px); */
+  opacity: 0;
+}
+
 .home {
   width: 100%;
   display: flex;
@@ -303,12 +314,12 @@ h4 {
 }
 .btn {
   cursor: pointer;
-  color: rgb(24, 24, 24);
+  color: rgb(255, 255, 255);
 }
 .num {
   font-size: 21px;
   font-weight: 600;
-  color: rgb(24, 24, 24);
+  color: rgb(255, 255, 255);
 }
 .icon {
   font-size: 30px;
@@ -317,13 +328,13 @@ h4 {
   position: relative;
   bottom: 6px;
   left: 2px;
-  color: rgb(24, 24, 24);
+  color: rgb(255, 255, 255);
 }
 .down {
   position: relative;
   top: 6px;
   right: 2px;
-  color: rgb(24, 24, 24);
+  color: rgb(255, 255, 255);
 }
 /* ______________________________________________________ */
 .projects {
